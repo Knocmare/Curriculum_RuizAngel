@@ -27,23 +27,11 @@ h2 {
     color: #EF8354;
 }
 
-h3 {
-    color: #FFFFFF;
-}
-
 h4 {
     color: #EF8354;
 }
 
-p {
-    color: #FFFFFF;
-}
-
-li {
-    color: #FFFFFF;
-}
-
-a {
+.texto-normal {
     color: #FFFFFF;
 }
 
