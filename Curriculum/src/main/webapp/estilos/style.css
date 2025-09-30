@@ -1,0 +1,56 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 29 sep 2025, 10:01:35 p.m.
+    Author     : Knocmare
+*/
+
+body {
+    background-color: #2D3142;
+}
+
+header {
+    background-color: #BFC0C0;
+}
+
+div {
+    background-color: #4F5D75;
+}
+
+footer {
+    background-color: #FFFFFF;
+}
+
+h2 {
+    color: #EF8354;
+}
+
+h3 {
+    color: #FFFFFF;
+}
+
+h4 {
+    color: #EF8354;
+}
+
+p {
+    color: #FFFFFF;
+}
+
+li {
+    color: #FFFFFF;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+th {
+    color: #EF8354;
+}
+
+td {
+    color: #FFFFFF;
+}
