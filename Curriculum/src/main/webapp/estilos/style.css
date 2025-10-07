@@ -1,44 +1,78 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
-*/
+
 /* 
     Created on : 29 sep 2025, 10:01:35 p.m.
     Author     : Knocmare
 */
 
+:root {
+    --color-fondo: #2D3142;
+    --color-primario: #EF8354;
+    --color-secundario: #4F5D75;
+    --color-gris-claro: #BFC0C0;
+    --color-texto: #FFFFFF;
+}
+
 body {
-    background-color: #2D3142;
+    background-color: var(--color-fondo);
 }
 
 header {
-    background-color: #BFC0C0;
+    background-color: var(--color-gris-claro);
+    border-radius: 7px;
+    padding-left: 5px;
 }
 
 div {
-    background-color: #4F5D75;
+    background-color: var(--color-secundario);
+    border-radius: 7px;
+    padding-left: 5px;
+}
+div::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.mi-foto {
+    width: 230px;
+    margin: 5px 5px 5px 0px;
+    float: left;
+    border: 10px ridge var(--color-primario);
 }
 
 footer {
-    background-color: #FFFFFF;
+    background-color: var(--color-texto);
+    border-radius: 7px;
+    padding: 5px 0px 0px 5px;
+    margin-top: 10px;
+}
+
+footer > h4 {
+    color: var(--color-primario);
+    margin-top: 0;
 }
 
 h2 {
-    color: #EF8354;
-}
-
-h4 {
-    color: #EF8354;
+    color: var(--color-primario);
 }
 
 .texto-normal {
-    color: #FFFFFF;
+    color: var(--color-texto);
+}
+
+.enlace {
+
+    color: var(--color-secundario);
+}
+.enlace:hover {
+
+    color: var(--color-texto);
 }
 
 th {
-    color: #EF8354;
+    color: var(--color-primario);
 }
 
 td {
-    color: #FFFFFF;
+    color: var(--color-texto);
 }
